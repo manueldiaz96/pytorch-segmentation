@@ -28,7 +28,7 @@ $ cd tf_model
 $ wget http://download.tensorflow.org/models/deeplabv3_mnv2_cityscapes_train_2018_02_05.tar.gz
 $ tar -xvf deeplabv3_mnv2_cityscapes_train_2018_02_05.tar.gz
 $ cd ../src
-$ python -m converter.mobilenetv2 ../tf_model/deeplabv3_mnv2_cityscapes_train/model.ckpt 19 ../model/cityscapes_mobilnetv2/model.pth
+$ python -m converter.convert_mobilenetv2 ../tf_model/deeplabv3_mnv2_cityscapes_train/model.ckpt 19 ../model/cityscapes_mobilnetv2/model.pth
 ```
 
 
